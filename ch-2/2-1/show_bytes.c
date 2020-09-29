@@ -43,7 +43,6 @@ void test_show_bytes(int val){
 int main(void)
 {
     int value = 0x12345;
-//    test_show_bytes(value);
-    show( &value, sizeof(int));
+    test_show_bytes(value);
     return 0;
 }
